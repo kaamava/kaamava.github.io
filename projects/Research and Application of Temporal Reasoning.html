@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Research and Application of Temporal Reasoning | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/Research%20and%20Application%20of%20Temporal%20Reasoning.html">
+    <meta property="og:title" content="Research and Application of Temporal Reasoning | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Research and Application of Temporal Reasoning | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Research and Application of Temporal Reasoning</h1>
+ <h2 id="improving-temporal-generalization-of-pre-trained-language-models-with-lexical-semantic-change">Improving Temporal Generalization of Pre-trained Language Models with Lexical Semantic Change</h2>
+
+<p>This repository contains part of the code and pre-trained models for our paper “Awareness of Time: Video-Language Models Embedding with Temporal Reasoning”, which has been submitted to LREC-COLING2024. The complete code will be released after the conference announces the acceptance results.</p>
+
+<h2 id="contents">Contents</h2>
+<ul>
+  <li>Abstract</li>
+  <li>Overview</li>
+  <li>Datasets</li>
+  <li>Baseline</li>
+  <li>Train</li>
+  <li>Results</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+<p>Video-language pre-training has significantly improved the performance of diverse downstream tasks related to video and language. However, existing approaches often directly adapt image-language pre-training paradigms to video-language tasks, neglecting the unique temporal characteristics of videos. In this paper, we present a novel temporal-aware video-language pre-training framework. It introduces two innovative pre-training tasks to enhance temporal-awareness in multi-modal representations, incorporating fine-grained temporal moment information and temporal contextual relations between video-text pairs. Firstly, we propose a cross-modal moment exploration task, leveraging paired texts to uncover detailed video moment representations. Subsequently, using the acquired moment representations, we capture inherent temporal contextual relations by aligning video-text pairs across different time resolutions in a multi-modal temporal relation exploration task. Additionally, we introduce a shuffling test to assess the temporal reliance of datasets and the efficacy of video-language pre-training. This framework aims to fully exploit the temporal dimension in video data for more effective pre-training and improved downstream task performance.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>·We show that existing video-language models have difficulty in associating time order in video and language through controlled experiments on synthetic data and several evaluations on real datasets.</p>
+
+<p>·We propose a temporal reasoning video-language pre-training framework with both videolanguage understanding and generation capabilities.</p>
+
+<p>·We introduce temporal reasoning pre-training tasks to generate temporal reasoning multi-modal representation through modeling fine-grained temporal moment information and capturing the temporal contextual relations between moment and event.</p>
+
+<h2 id="datasets">Datasets</h2>
+
+<p>we pre-train our model on a webly-sourced video dataset WebVid-2M with 2.5M video-text pairs and a image-text dataset Google Conceptual Captions (CC3M) with 3M image-text pairs. Unlike previous methods, we do not pre-train our model on the large-scale video-text datasets like HowTo100M with 136M video-text pairs and YT-Temporal-180M due to the heavy computation.</p>
+
+<p><img src="https://github.com/kaamava/Research-and-Application-of-Temporal-Reasoning/assets/106901273/1bff9281-7ea3-4896-aadf-72dbfa49d396" alt="tempo-data-v1" /></p>
+
+<p>We evaluate our pre-trained model on several video-language benchmarks including video-text retrieval, video question answering, and video captioning tasks. Specifically, video question answering (VideoQA) can be categorized as Multiple-Choice (MC) and Open-Ended (OE) settings. The evaluation datasets are briefly summarized in below.</p>
+
+<p>• Video-Text Retrieval: MSRVTT, ActivityNet Caption and SSv2-Template;</p>
+
+<p>• VideoQA (MC): TGIF-Action, TGIF-Transition, MSRVTT-MC and NExT-QA;</p>
+
+<p>• VideoQA (OE): MSRVTT-QA,MSVD-QA and ActivityNet-QA;</p>
+
+<p>• Video Captioning: MSRVTT.</p>
+<h2 id="baseline">Baseline</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Post-pretraining Dataset</strong></th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"><strong>Hyperparameters</strong></th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"><strong>Download link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td style="text-align: center">$\alpha_{\text{same}}$</td>
+      <td style="text-align: center">$\alpha_{\text{cross}}$</td>
+      <td style="text-align: center">$\beta$</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>TEMPO-TL</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center"><a href="https://isis-data.science.uva.nl/testoftime/checkpoints/tempo-hparams_1.0_1.0_1.0-epoch=27-step=8288.ckpt">Link</a></td>
+    </tr>
+    <tr>
+      <td>ActivityNet</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">0.0</td>
+      <td style="text-align: center"><a href="https://isis-data.science.uva.nl/testoftime/checkpoints/activitynet-hparams_1.0_1.0_0.0-epoch%3D9-step%3D7450.ckpt">Link</a></td>
+    </tr>
+    <tr>
+      <td>Charades</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">0.0</td>
+      <td style="text-align: center"><a href="https://isis-data.science.uva.nl/testoftime/checkpoints/charades-hparams_1.0_1.0_0.0-epoch%3D3-step%3D3120.ckpt">Link</a></td>
+    </tr>
+    <tr>
+      <td>Charades-Ego</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center">1.0</td>
+      <td style="text-align: center"><a href="https://isis-data.science.uva.nl/testoftime/checkpoints/charadesego-hparams_1.0_1.0_1.0-epoch%3D2-step%3D3639.ckpt">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="train">Train</h2>
+<h2 id="result">Result</h2>
+<p><em>These two parts will be released after the conference announces the acceptance results.</em></p>
+
+<hr />
+
+<p>Github: <a href="https://github.com/kaamava/Research-and-Application-of-Temporal-Reasoning"><i class="large github icon "></i>Research and Application of Temporal Reasoning</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

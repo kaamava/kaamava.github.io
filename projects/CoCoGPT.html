@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="COVID-19 ConsultantGPT Based on BERT-GPT | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/CoCoGPT.html">
+    <meta property="og:title" content="COVID-19 ConsultantGPT Based on BERT-GPT | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>COVID-19 ConsultantGPT Based on BERT-GPT | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">COVID-19 ConsultantGPT Based on BERT-GPT</h1>
+ <h1 id="cocogpt">CoCoGPT</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Today, with the increasing risk of COVID-19 infection in the society, people who are suspected of COVID-19’s symptoms or have a greater risk of infection for various reasons will have some anxiety about medical consultation. Relatively, the pressure on the medical system will rapidly increase in the short term. Opening up an online medical consultation platform can to some extent alleviate the current social pressure and public anxiety. However, at the same time, the professionalism of online consultation needs to be guaranteed. Therefore, the purpose of this study is to establish a medical dialogue model CoCoGPT (COVID-19 Consultant GPT) that can provide COVID-19 related consultations using professional medical consultation materials. The report utilizes and improves a Chinese medical dialogue dataset COVID-Dialogue-Chinese, which includes dialogue records between doctors and patients regarding COVID-19. In this study, the dataset were used to train a BERT-GPT based model.</p>
+
+<h2 id="dataset">Dataset</h2>
+<p>COVID-Dialogue-Chinese is a Chinese medical dialogue dataset about COVID-19 and other types of pneumonia. Patients who are concerned that they may be infected by COVID-19 or other pneumonia consult doctors and doctors provide advice. There are 1088 consultations. Each consultation consists of</p>
+
+<ul>
+  <li>ID</li>
+  <li>URL</li>
+  <li>Description of patient’s medical condition</li>
+  <li>Dialogue</li>
+  <li>(Optional) Diagnosis and suggestions.</li>
+</ul>
+
+<p>The dataset is built from <a href="https://www.haodf.com/">Haodf.com</a> and all copyrights of the data belong to <a href="https://www.haodf.com/">Haodf.com</a>.</p>
+
+<h2 id="model">Model</h2>
+
+<h3 id="1transformer">1.Transformer</h3>
+
+<p>Transformer is an encoder-decoder architecture for sequence-to-sequence (seq2seq) modeling. Transformer is composed of a stack of building blocks, each consisting of a self-attention layer and a position-wise feed-forward layer. Residual connection is applied around each of the two sub-layers, followed by layer normalization.</p>
+
+<h3 id="2gpt">2.GPT</h3>
+<p>The GPT model is a language model (LM) based on Transformer. Different from Transformer which defines a conditional probability on an output sequence given an input sequence, GPT defines a marginal probability on a single sequence. GPT-2 is an extension of GPT, which modifies GPT by moving layer normalization to the input of each sub-block and adding an additional layer normalization after the final self-attention block.</p>
+
+<p>DialoGPT (Zhang et al., 2019) is a GPT-2 model pretrained on English Reddit dialogues. The dataset is extracted from comment chains in Reddit from 2005 till 2017, comprising 147,116,725 dialogue instances with 1.8 billion tokens.</p>
+
+<h3 id="3bert-gpt">3.BERT-GPT</h3>
+
+<p>BERT-GPT (Wu et al., 2019) is a model used for dialogue generation where pretrained BERT is used to encode the conversation history and GPT is used to generate the responses. While GPT focuses on learning a Transformer decoder for text generation purposes, BERT aims to learn a Transformer encoder for representing texts.</p>
+
+<p>In BERT-GPT, the pretraining of the BERT encoder and the GPT decoder is conducted separately, which may lead to inferior performance.</p>
+
+<p>BERT-GPT-Chinese is a BERT-GPT model pretrained on Chinese corpus. For the BERT encoder in BERT-GPT-Chinese, it is set to the Chinese BERT, which is a large-scalepretrained BERT model on Chinese texts.</p>
+
+<p>The detailed introduction of the model in this research is contained in CoCoGPT.pdf.</p>
+
+<h2 id="result">Result</h2>
+
+<p>Human evaluation and automatic evaluation results show that these models are promising in generating clinically meaningful and linguistically high-quality consultations for COVID-19 in Chinese.The detailed performance of the model is contained in CoCoGPT.pdf.</p>
+
+<p>The generated examples：</p>
+
+<p><img src="https://github.com/kaamava/CoCoGPT/assets/106901273/53005c59-b492-4d65-9508-91e785412e26" alt="image" /></p>
+<hr />
+
+<p>Source: <a href="https://github.com/kaamava/CoCoGPT"><i class="large github icon "></i>CoCoGPT</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

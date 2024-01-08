@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Monocular Depth Estimation on Ascend Development Board | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/Monocular%20Depth%20Estimation%20on%20Ascend%20Development%20Board.html">
+    <meta property="og:title" content="Monocular Depth Estimation on Ascend Development Board | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Monocular Depth Estimation on Ascend Development Board | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Monocular Depth Estimation on Ascend Development Board</h1>
+ <h1 id="mono-depth-estimation-on-develop-board">Mono-depth-Estimation-on-Develop-Board</h1>
+
+<p>The Atlas 200 DK Developer Kit (Model: 3000) is a high-performance AI application development board integrated with Ascend processors. It facilitates users in rapid development and validation, making it versatile for applications such as developer solution verification, higher education, and scientific research.</p>
+
+<p><img src="https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board/assets/106901273/dbcaddc0-a9c6-416c-8bbc-becfe4eb951b" alt="image" /></p>
+
+<p>To operationalize the monocular vision depth estimation project, we deployed it on the Atlas 200DK development board. Through the Atlas 200 DK development board, we conducted depth estimation inference experiments by utilizing local image data as input. The aim was to estimate the depth of the environment in the images and save the resulting detection images to files.</p>
+
+<p>We constructed a model based on U-net with ResNet as the encoder. To adapt it to the hardware, we made some adjustments. To address redundancy issues, we reduced the number of convolutional kernels and applied a divide-and-conquer approach to them. Additionally, to resolve operator incompatibility, we independently created corresponding operators.</p>
+<blockquote>
+  <p>This project implements the U-Net Convolutional Neural Network with a ResNet encoder (pre-trained on imagenet weights) on the NYU-Depth v2 dataset and achieved a soft accuracy of 83% on the test set.</p>
+</blockquote>
+
+<p><img src="https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board/assets/106901273/33f39141-21e7-47ca-8ffa-5432fefa03a2" alt="image" /></p>
+
+<h2 id="tech-used">Tech used</h2>
+<ul>
+  <li>TensorFlow 2.0.0</li>
+  <li>Python 3.5.6</li>
+</ul>
+
+<h2 id="instructions-to-run">Instructions to run</h2>
+<ul>
+  <li>Using <code class="language-plaintext highlighter-rouge">anaconda</code>:
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">conda create --name &lt;env_name&gt; --file recog.yml</code></li>
+      <li>Run <code class="language-plaintext highlighter-rouge">conda activate &lt;env_name&gt;</code></li>
+    </ul>
+  </li>
+  <li>Using <code class="language-plaintext highlighter-rouge">pip</code>:
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code></li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">cd</code> to <code class="language-plaintext highlighter-rouge">src</code></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">python main.py</code></li>
+</ul>
+
+<h2 id="model">Model</h2>
+
+<p>The model used in this experiment is based on U-Net, constructing a deep learning network for monocular visual depth estimation. It incorporates ideas from DenseNet and ResNet, enhancing the model with dilated convolutional neural networks and residual learning modules. Furthermore, adjustments were made to the model in accordance with the deployment requirements on the Atlas 200DK.</p>
+
+<p>The model we trained is in PyTorch, and PyTorch is not compatible with inference on the Atlas 200DK. To meet the deployment requirements on the development board, we chose the model conversion route: PyTorch → ONNX → Caffe → OM. This pathway minimizes the losses introduced during model conversion, aligns well with the design requirements of the development board, and is better suited to the hardware environment.</p>
+
+<p>The multi-step transformation of computer vision models is crucial for realizing hardware applications.</p>
+
+<p><strong>The details of the model introduction and conversion are presented in the Monocular-Board.pdf.</strong></p>
+
+<h2 id="output">Output</h2>
+<p>We can perform real-time monocular visual depth detection using the Atlas 200DK development board. This project has been officially approved by Huawei.</p>
+
+<p><img src="https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board/assets/106901273/8c694b6d-8317-494a-bdfa-05997e062e01" alt="output" /></p>
+
+<p><img src="https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board/assets/106901273/bebe6fb4-0edd-4def-a438-0aa94a2a6c9f" alt="image" /></p>
+<hr />
+
+<p>Github: <a href="https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board"><i class="large github icon "></i>Monocular Depth Estimation on Ascend Development Board</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Josh Li",
+    "label": "Student",
+    "picture": "https://github.com/kaamava.png",
+    "email": "liyanshu0423@163.com",
+    "phone": "(+86)15351898116",
+    "website": "https://kaamava.github.io",
+    "summary": "I am an undergraduate student majoring in Artificial Intelligence at the School of Computer Science and Technology, Soochow University. I am expected to graduate in 2024. I aim to explore more knowledge in the field of Artificial Intelligence and Computer Engineering in the future to achieve my career goals. I hope to use my abilities to contribute to making the world a better place.",
+    "location": { "address": "Soochow University", "postalCode": "215031", "city": "Soochow", "countryCode": "China", "region": "Jiangsu" },
+    "profiles": [
+      { "network": "github", "username": "Josh Li", "url": "http://github.com/kaamava" },
+      { "network": "linkedin", "username": "Josh Li", "url": "https://www.linkedin.com/in/%E5%BD%A6%E6%BE%8D-%E6%9D%8E-aa08282a6/" },
+      { "network": "twitter", "username": "kama", "url": "https://twitter.com/kamaKun0312" }
+    ]
+  },
+  "interests": [
+    { "name": "Natrual Language Processing" },
+    { "name": "Computer Vision" },
+    { "name": "Machine Learning" },
+    { "name": "Embedded Systems" },
+    { "name": "AI-Hardware Co-designing" },
+    { "name": "Large Language Model" },
+    { "name": "AI Engineering" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "C#", "Java", "Javascript", "Python", "Pytorch", "Tensorflow", "Verilog" ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [ "MATLAB", "SQL", "R"]
+    }  
+  ],
+  "education": [
+    {
+      "institution": "Soochow University, Jiangsu, China",
+      "area": "Artificial Intelligence (expected Summer, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": ["Principle of Neural Network, Machine Learning, Python Programming, AI ALgorithm Design & Analysis, Machine Vision, Data Structure, Natrual Language Processing"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "iFLYTEK CO.,Ltd.",
+      "position": "Intern AI Product Development Assistant",
+      "website": "",
+      "startDate": "2023-11",
+      "endDate": "Present",
+      "summary": "Provide AI products solutions",
+      "highlights": [
+        "Provide software-level algorithm updates based on basic needs",
+        "Study the practical application scenarios of corresponding products at the hardware level"
+      ]
+    },
+    {
+      "company": "Nanjing Rongfei Technology Co.,Ltd.",
+      "position": "Intern AI Testing&Development Engineer",
+      "website": "",
+      "startDate": "2023-07",
+      "endDate": "2023-09",
+      "summary": "",
+      "highlights": [
+        "Participate in the development and testing of facial recognition algorithms and hardware applications for security"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Animal Protection Practice Group of Soochow University",
+      "website": "",
+      "position": "Technical consultant",
+      "startDate": "2021-07",
+      "endDate": "2022-09",
+      "summary": "Lead developer for website",
+      "highlights": [
+        "Carried out information crawling and front-end design",
+        "Built an integrated information resource platform"
+      ]
+    },
+    {
+      "organization": "Student Union Secretariat of Soochow University",
+      "website": "",
+      "position": "Technical consultant",
+      "startDate": "2020-09",
+      "endDate": "2022-01",
+      "summary": "",
+      "highlights": [
+        "Served as technical support, responsible for the management of the file submission system, database maintenance, and development of the front-end platform"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Silver Medal of Google-Fast or Slow?Predict AI Model Running(4%)",
+      "date": "2023-11"
+    },
+    {
+      "title": "Bronze Medal of Kaggle-LLM Science Exam(7%)",
+      "date": "2023-10"
+    },
+    {
+      "title": "Successful Participant of ByteDance Youth Camp",
+      "date": "2023-08"
+    },
+    {
+      "title": "Provincial Second Prize of China Undergraduate Mathematical Contest in Modeling(10%)",
+      "date": "2022-09"
+    },
+  ],
+}

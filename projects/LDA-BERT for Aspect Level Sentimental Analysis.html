@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="LDA-BERT for Aspect Level Sentimental Analysis | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/LDA-BERT%20for%20Aspect%20Level%20Sentimental%20Analysis.html">
+    <meta property="og:title" content="LDA-BERT for Aspect Level Sentimental Analysis | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>LDA-BERT for Aspect Level Sentimental Analysis | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">LDA-BERT for Aspect Level Sentimental Analysis</h1>
+ <h2 id="lda-bert-absa">LDA-BERT-ABSA</h2>
+<p>This repository contains part of the code and pre-trained models for our paper “A LDA Model Augmented with BERT for Aspect Level Sentiment Analysis”, which has been submitted to ICJAI2024. The complete code will be released right after the conference announces the acceptance results.</p>
+
+<h2 id="contents">Contents</h2>
+<ul>
+  <li>Abstract</li>
+  <li>Overview</li>
+  <li>Model</li>
+  <li>Train</li>
+  <li>Results</li>
+</ul>
+
+<h2 id="abstract">Abstract</h2>
+<p>Aspect level sentiment analysis is a fine-grained task in affective analysis. It extracts aspects and their corresponding emotional polarities from opinionated texts. The first sub task of identifying the aspects with comments is called aspect extraction, which is the focus of the work. Social media platform is a huge untagged data resource. However, data annotation for fine-grained tasks is very expensive and laborious. Therefore, the unsupervised model is highly appreciated. The proposed model is an unsupervised aspect extraction method, a guided potential Dirichlet assignment (LDA) model, which uses the smallest aspect seed words from each aspect category to guide the model to identify hidden topics of interest to users. The LDA model is enhanced by using regular expressions that guide input based on language rules. The model is further enhanced through a variety of filtering strategies, including a BERT-based semantic filter, which integrates semantics to strengthen the situation where co-occurrence statistics may not be able to be used as a distinguishing factor. The threshold values of these semantic filters are estimated using Particle Swarm Optimization strategy. The proposed models are expected to overcome the shortcomings of the basic LDA models, which cannot distinguish overlapping topics representing each aspect category.</p>
+
+<h2 id="overview">Overview</h2>
+<p>·Proposed a guided LDA model, which uses only a few general seed words from each aspect category, and combines with the automatic seed set expansion module based on BERT similarity to achieve better and faster topic convergence. The supervision required by the model is the minimum seed aspect terms from each aspect category, which can be learned from the general knowledge of the
+domain.</p>
+
+<p>·Proposed specially designed regular expression (RE) based language rules, which helps to better target the multi word aspect. The inputs guiding the LDA model are filtered using multiple pruning strategies, mainly including BERT based semantic filters, so as to combine semantic strength when co-occurrence statistics may not be used as a differentiating factor.</p>
+
+<p>·Proposed particle swarm optimization (PSO) strategy which is used to adjust the threshold parameters of seed set expansion and RE-based input filter.
+<img src="https://github.com/kaamava/LDA-BERT-ABSA/assets/106901273/98e7b9ad-d455-41b8-b42d-17b45d2c2f52" alt="image" /></p>
+
+<h2 id="model">Model</h2>
+<h3 id="-bert">• BERT</h3>
+
+<p><a href="https://github.com/google-research/bert">Bidirectional Encoder Representations from Transformers</a> derives representations of words based on nlp models ran over open-source Wikipedia data. These representations are then leveraged to derive corpus topics.</p>
+
+<p><a id="lda"></a></p>
+
+<h3 id="-lda">• LDA</h3>
+<p><a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">Latent Dirichlet Allocation</a> is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. In the case of kwx, documents or text entries are posited to be a mixture of a given number of topics, and the presence of each word in a text body comes from its relation to these derived topics.</p>
+
+<p>Although not as computationally robust as some machine learning models, LDA provides quick results that are suitable for many applications. Specifically for keyword extraction, in most settings the results are similar to those of BERT in a fraction of the time.</p>
+
+<h3 id="-pso">• PSO</h3>
+<p><a target="_blank" href="https://en.wikipedia.org/wiki/Particle_swarm_optimization">Particle swarm optimization</a> (PSO) can be used to find optimal values for the parameters by using a randomly chosen aspect level labeled dataset.</p>
+<h2 id="train">Train</h2>
+<h2 id="results">Results</h2>
+<p><em>These two parts will be released after the conference announces the acceptance results.</em></p>
+
+<hr />
+
+<p>Github: <a href="https://github.com/kaamava/LDA-BERT-SA"><i class="large github icon "></i>LDA-BERT for Aspect Level Sentimental Analysis</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="COVID-19 Related Medical Text Summarization with BERT | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/COVID-19%20Medical%20Text%20Summarization.html">
+    <meta property="og:title" content="COVID-19 Related Medical Text Summarization with BERT | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>COVID-19 Related Medical Text Summarization with BERT | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">COVID-19 Related Medical Text Summarization with BERT</h1>
+ <h2 id="introduction">Introduction</h2>
+<p>Due to the unique nature of the COVID-19 pandemic, text data related to it has exhibited explosive growth in scale within a short period. This data is characterized by its diversity and significant variations. To comprehensively study this textual information and better understand the virus’s development trends and mutation directions, automatic summarization techniques play a crucial role. In this project, a fine-tuned BERT model is applied to generate medical text summaries based on publicly available literature data. The model framework consists mainly of encoder, decoder, and training modules. The core components for abstract generation include an encoder and decoder structure with BERT Embedding and BiLSTM, along with a multi-layer neural network connecting different modules to enable multi-task learning. Various attention mechanisms are also employed in the model.</p>
+
+<h2 id="model">Model</h2>
+<p>BERT is a language model capable of unsupervised pre-training using a large amount of text data, forming the foundation of this summarization generation model. BERT features a bidirectional Transformer encoding layer, allowing for the pre-training of deep bidirectional representations of unlabeled data through a conditioned pre-processing procedure. This enables a better capture of bidirectional relationships within input sentences.</p>
+
+<p>The summarization generation model structure proposed in this report consists of two core modules: an encoder and a decoder.</p>
+
+<p><img src="https://github.com/kaamava/BERT-Text-Summarization-COVID/assets/106901273/953c4138-e094-42c8-b517-306876622a8d" alt="image" /></p>
+
+<p>The structural details of the encoder and decoder are presented in BERT-COVID-text.pdf.</p>
+
+<h2 id="dataset-and-pre-processing">Dataset and Pre-processing</h2>
+<p>The dataset used in this report is primarily obtained by retrieving keywords related to COVID-19 from published literature data, including journals such as “Chinese Medical Journal,” “Journal of Southern Medical University,” and “Journal of Peking University. Medical Edition.” The report collects abstracts and titles from these publications and performs data preprocessing to clean the collected data. Subsequently, the Chinese text is reorganized into word sequences using the Jieba word segmentation library for in-depth analysis. During the data preprocessing, entries with title lengths outside the range [10, 70] and corresponding abstract lengths outside the range [200, 1100] are removed. Additionally, information irrelevant to the summarization task, such as literature authors and publication sources, is filtered out.</p>
+
+<hr />
+
+<p>Github: <a href="https://github.com/kaamava/BERT-Text-Summarization-COVID"><i class="large github icon"></i>COVID-19 Medical Text Summarization</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

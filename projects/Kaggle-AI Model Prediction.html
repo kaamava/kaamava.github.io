@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Kaggle-AI Model Prediction | Josh Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/kaamava.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Josh Li | Professional Portfolio">
+    <meta property="og:url" content="https://kaamava.github.io/projects/Kaggle-AI%20Model%20Prediction.html">
+    <meta property="og:title" content="Kaggle-AI Model Prediction | Josh Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/kaamava.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Kaggle-AI Model Prediction | Josh Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Josh Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Kaggle-AI Model Prediction</h1>
+ <h1 id="kaggle-google-ai-comp">kaggle-Google-AI-Comp</h1>
+<h3 id="goal-of-the-competition">Goal of the Competition</h3>
+
+<p>Alice is an AI model developer, but some of the models her team developed run very slow. She recently discovered compiler’s configurations that change the way the compiler compiles and optimizes the models, and hence make the models run faster (or slower)!</p>
+
+<p>Train a machine learning model based on the runtime data provided to you in the training dataset and further predict the runtime of graphs and configurations in the test dataset.</p>
+
+<h3 id="context">Context</h3>
+<p>An AI model can be represented as a graph, where a node is a tensor operation (e.g. matrix multiplication, convolution, etc), and an edge represents a tensor. A compilation configuration controls how the compiler transforms the graph for a specific optimization pass. In particular, Alice can control two types of configurations/optimizations:</p>
+
+<p>·A layout configuration control how tensors in the graph are laid out in the physical memory, by specifying the dimension order of each input and output of an operation node.</p>
+
+<p>·A tile configuration controls the tile size of each fused subgraph.
+<img src="https://github.com/kaamava/kaggle-Google-AI-Comp/assets/106901273/a857a8b7-5f01-486d-b7a7-7522957c0b00" alt="image" />
+<img src="https://github.com/kaamava/kaggle-Google-AI-Comp/assets/106901273/a84c79da-e9c1-4f95-86af-de7426cd070f" alt="image" /></p>
+
+<h3 id="project-introduction">Project Introduction</h3>
+<p>We used GCN and Simple MLP in our project.</p>
+
+<p>1.Download official data to the input folder.</p>
+
+<p>2.Run five files sequentially: tile.ipynb, layout_default.ipynb, layout_random.ipynb, nlp_default.ipynb, nlp_random.ipynb.</p>
+
+<p>3.Execute combine.ipynb to obtain submission.csv.</p>
+
+<p>Note:Significant memory is required for execution; it is recommended to have 128GB RAM and 40GB GPU memory</p>
+
+<h3 id="our-advantages">Our Advantages</h3>
+<p>1.This competition is based on the structure and operational time data of various deep learning models to accurately infer the consumption time of each node in the models, thereby optimizing and adjusting the model structure. The competition includes five regression prediction problems. To evaluate the accuracy of the predictions, the competition adopts two evaluation metrics: topK accuracy and correlation coefficient.</p>
+
+<p>2.Considering the type of data in this competition, we chose to use a Graph Convolutional Network (GCN) model to address this challenge. Initially, we perform embedding encoding on the operation codes (node_opcode) and node configuration features (node_config_feat) to capture the latent representations of these discrete attributes. These encodings, combined with other node features (node_feat), serve as inputs to the nodes in the GCN model. In terms of model architecture, we use GCN convolution layers (GCNConv) to process the graph structure, facilitating the flow and integration of information between nodes. For the training objective of the model, we utilize the ListMLE loss function, a common choice in list-wise learning, suitable for addressing sorting or priority-related problems. Finally, we opt to train the model using the Adam optimizer.</p>
+
+<p>3.The performance of a single model is often limited by its structure and parameters. To further enhance the accuracy of predictions, we decided to employ model fusion on the aforementioned model. Specifically, we combined the prediction results of multiple models through weighted fusion, then sorted and output these results. This strategy effectively reduces the model’s bias and enhances its robustness.</p>
+
+<p>4.In the competition, we made full use of the allotted time, managing the competition’s pace effectively; we engaged in active discussions, devised a reasonable model iteration plan for the competition, and organized brainstorming sessions to advance the competition’s progress. Meanwhile, everyone embarked on the model development work, ensuring to enhance the prediction accuracy as much as possible. 
+<img src="https://github.com/kaamava/kaggle-Google-AI-Comp/assets/106901273/68c418b1-75a6-4309-938a-93b97e37ce3e" alt="image" /></p>
+<hr />
+
+<p>Github: <a href="https://github.com/kaamava/kaggle-Google-AI-Comp"><i class="large github icon "></i>Kaggle-AI Model Prediction</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
