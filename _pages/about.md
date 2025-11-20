@@ -50,12 +50,12 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 [CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced
 Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 
-**Yanshu Li***, Jianjiang Yang*, Zhennan Shen, Ligong Han, Haoyan Xu, Ruixiang Tang
+**Yanshu Li**, Jianjiang Yang, Zhennan Shen, Ligong Han, Haoyan Xu, Ruixiang Tang
 - We propose Contextually Adaptive Token Pruning (CATP), a training-free image token pruning method that adapts to complex image-text interactions and significantly reduces redundant image tokens in LVLMs. This research pushes forward the efficiency and practical applicability of multimodal in-context learning.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/TACO.png' alt="sym" width="80%" height="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TACO: Enhancing Multimodal In-context Learning via Task Mapping-Guided Sequence Configuration](https://arxiv.org/abs/2505.17098)
@@ -63,6 +63,17 @@ Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 **Yanshu Li**, Jianjiang Yang, Tian Yun, Pinyuan Feng, Jinfa Huang, Ruixiang Tang
 - We propose an interpretable framework that analyzes how multimodal in-context learning behaves under different inputs, and we further introduce TACO, a lightweight transformer-based model that uses this framework to configure in-context prompts for LVLMs.
 This work improves the robustness and adaptability of multimodal in-context learning pipelines by making prompt configuration more informed and controllable.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="80%" height="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2505.17098)
+
+**Yanshu Li**, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
+- We propose M²IV, a representation-engineering framework that replaces token-level demonstrations with learnable in-context vectors that can be directly injected into the layers of LVLMs for fine-grained and efficient multimodal in-context learning.
+This work improves scalability, reduces token overhead, and strengthens task adaptation in multimodal ICL. It also provides a promising way of customizing LVLMs.
 </div>
 </div>
 
