@@ -23,9 +23,14 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+- *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI2026 and both are selected as Oral presentations! See you in Singapore!
+- *2025.11*: &nbsp;🎉🎉 Three papers are accepted at WACV2026!
+- *2025.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS2025!
+- *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP2025 (two at Main conference and one at Findings)! See you in Suzhou!
+- *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM2025! See you in Montreal!
+- *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM2025!
+- *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR2025 Workshop and both are selected as Oral presentations! See you in Singapore!
+- *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS2024!
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -42,9 +47,9 @@ My research interest includes neural machine translation and computer vision. I 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Internships
+- *2024.04-2024.06* Foundation Model Engineer, Baidu, Shanghai, China
+- *2023.10-2024.02* Foundation Model Engineer, iFlytek, Suzhou, China
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
