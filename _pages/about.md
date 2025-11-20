@@ -17,10 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+Welcome to my homepage!
+I am a second-year Computer Science student at Brown University <img src='./images/brown.png' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs).
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026 and both are selected as Oral presentations🏅! See you in Singapore!
@@ -49,16 +47,16 @@ My research interest includes neural machine translation and computer vision. I 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 💻 Industrial Internships
-- *2024.04-2024.06*, Foundation Model Engineer, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
-- *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
-
 # 📖 Educations
 - *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
 - *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
+# 💻 Industrial Internships
+- *2024.04-2024.06*, Foundation Model Engineer, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
+- *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
+
 # ⚙️ Services
 - *Volunteer*: COLM 2024, COLM 2025, ICLR 2025, EMNLP 2025
-- *Reviewer*: ARR Feb/May/Jul/Oct 2026, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
+- *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
 
