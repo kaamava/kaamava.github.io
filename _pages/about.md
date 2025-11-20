@@ -42,6 +42,15 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 **Yanshu Li**, Jianjiang Yang, Ziteng Yang, Bozheng Li, Hongyang He, Zhengtao Yao, Ligong Han, Yingjie Victor Chen, Songlin Fei, Dongfang Liu, Ruixiang Tang
 - We propose Context-Aware Modulated Attention (CAMA), a training-free method that dynamically adjusts attention logits in two stages to fix attention deficits in multimodal in-context learning. This work improves model stability, reduces erroneous attention patterns, and enhances the consistency of multimodal reasoning.
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced
+Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
+
+**Yanshu Li***, Jianjiang Yang*, Zhennan Shen, Ligong Han, Haoyan Xu, Ruixiang Tang
+- We propose Context-Aware Modulated Attention (CAMA), a training-free method that dynamically adjusts attention logits in two stages to fix attention deficits in multimodal in-context learning. This work improves model stability, reduces erroneous attention patterns, and enhances the consistency of multimodal reasoning.
+
 # 📖 Educations
 - *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
