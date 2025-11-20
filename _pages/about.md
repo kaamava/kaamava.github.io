@@ -70,7 +70,7 @@ This work improves the robustness and adaptability of multimodal in-context lear
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2505.17098)
+[M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2504.04633)
 
 **Yanshu Li**, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
 - We propose M²IV, a representation-engineering framework that replaces token-level demonstrations with learnable in-context vectors that can be directly injected into the layers of LVLMs for fine-grained and efficient multimodal in-context learning.
