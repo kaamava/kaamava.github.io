@@ -23,14 +23,14 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI2026 and both are selected as Oral presentations! See you in Singapore!
-- *2025.11*: &nbsp;🎉🎉 Three papers are accepted at WACV2026!
-- *2025.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS2025!
-- *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP2025 (two at Main conference and one at Findings)! See you in Suzhou!
-- *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM2025! See you in Montreal!
-- *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM2025!
-- *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR2025 Workshop and both are selected as Oral presentations! See you in Singapore!
-- *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS2024!
+- *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026 and both are selected as Oral presentations! See you in Singapore!
+- *2025.11*: &nbsp;🎉🎉 Three papers are accepted at WACV 2026!
+- *2025.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2025!
+- *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! See you in Suzhou!
+- *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!
+- *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
+- *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations! See you in Singapore!
+- *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -47,17 +47,16 @@ My research interest includes neural machine translation and computer vision. I 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Internships
-- *2024.04-2024.06* Foundation Model Engineer, Baidu, Shanghai, China
-- *2023.10-2024.02* Foundation Model Engineer, iFlytek, Suzhou, China
+# 💻 Industrial Internships
+- *2024.04-2024.06*, Foundation Model Engineer, Baidu, Shanghai, China
+- *2023.10-2024.02*, Foundation Model Engineer, iFlytek, Suzhou, China
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.9 - 2026.5(Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
+- *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
+- *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💬 Services
+- *Volunteer*: COLM 2024, COLM 2025, EMNLP 2025
+- *Reviewer*: ARR Feb/May/Jul/Oct 2026, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
