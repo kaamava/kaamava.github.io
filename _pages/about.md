@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Welcome to my homepage!
-I am a second-year Computer Science student at Brown University <img src='./images/brown.jepg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs).
+I am a second-year Computer Science student at Brown University <img src='./images/brown.jpeg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs).
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026 and both are selected as Oral presentations🏅! See you in Singapore!
