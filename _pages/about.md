@@ -100,7 +100,6 @@ This work elevates the generalizability of implicit in-context learning, enablin
 </div>
 </div>
 
-
 ``NeruIPS 2025``[TRiCo: Triadic Game-Theoretic Co-Training for Robust Semi-Supervised Learning](https://arxiv.org/abs/2509.21526) Hongyang He, Xinyuan Song, Yangfan He, Zeyu Zhang, **Yanshu Li**, Haochen You, Lifan Sun, Wenqiao Zhang
 
 ``Survey``[Thinking with Images for Multimodal Reasoning:
