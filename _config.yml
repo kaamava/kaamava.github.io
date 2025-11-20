@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Yanshu Li"
 description              : "Student Researcher @ Brown | Improving current-generation MLLMs and advancing toward the next generation of multimodal systems "
-repository               : "kaamava/kama.github.io"
+repository               : "kaamava/kaamava.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
