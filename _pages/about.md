@@ -40,7 +40,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
 Modulated Attention](https://arxiv.org/abs/2505.17097)
 
 **Yanshu Li**, Jianjiang Yang, Ziteng Yang, Bozheng Li, Hongyang He, Zhengtao Yao, Ligong Han, Yingjie Victor Chen, Songlin Fei, Dongfang Liu, Ruixiang Tang
-
+- We propose Context-Aware Modulated Attention (CAMA), a training-free method that dynamically adjusts attention logits in two stages to fix attention deficits in multimodal in-context learning. This work improves model stability, reduces erroneous attention patterns, and enhances the consistency of multimodal reasoning.
 
 # 📖 Educations
 - *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
