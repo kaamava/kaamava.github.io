@@ -31,6 +31,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted at ICML 2025!
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations! See you in Singapore!
+- *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
 
@@ -53,11 +54,11 @@ My research interest includes neural machine translation and computer vision. I 
 - *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
 
 # 📖 Educations
-- *2024.9 - 2026.5(Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
+- *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
 - *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
-# 💬 Services
+# ⚙️ Services
 - *Volunteer*: COLM 2024, COLM 2025, EMNLP 2025
 - *Reviewer*: ARR Feb/May/Jul/Oct 2026, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
 
