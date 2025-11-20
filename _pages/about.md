@@ -42,6 +42,7 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 
 **Yanshu Li**, Jianjiang Yang, Ziteng Yang, Bozheng Li, Hongyang He, Zhengtao Yao, Ligong Han, Yingjie Victor Chen, Songlin Fei, Dongfang Liu, Ruixiang Tang
 - We propose Context-Aware Modulated Attention (CAMA), a training-free method that dynamically adjusts attention logits to fix attention deficits in LVLMs' multimodal in-context learning. This work improves model stability, reduces erroneous attention patterns, and enhances the consistency of multimodal reasoning.
+
 <div class="paper-interaction" onclick="toggleAbstract('zerotuning_abstract')">
 📑 Click to see abstract
 </div>
