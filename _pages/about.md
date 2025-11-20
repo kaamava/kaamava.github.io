@@ -29,6 +29,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! See you in Suzhou!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
+- *2025.05*: &nbsp;🎉🎉 One paper is accepted at ICML 2025!
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations! See you in Singapore!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
