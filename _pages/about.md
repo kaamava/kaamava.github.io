@@ -33,7 +33,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%" height="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CAMA: Enhancing Multimodal In-Context Learning with Context-Aware
@@ -44,7 +44,7 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%" height="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced
@@ -55,7 +55,7 @@ Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/TACO.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/TACO.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TACO: Enhancing Multimodal In-context Learning via Task Mapping-Guided Sequence Configuration](https://arxiv.org/abs/2505.17098)
@@ -66,7 +66,7 @@ This work improves the robustness and adaptability of multimodal in-context lear
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2505.17098)
@@ -77,7 +77,7 @@ This work improves scalability, reduces token overhead, and strengthens task ada
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Findings</div><img src='images/reloop.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Findings</div><img src='images/reloop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ReLoop: "Seeing Twice and Thinking Backwards" via Closed-loop Training to Mitigate Hallucinations in Multimodal understanding](https://arxiv.org/abs/2507.04943)
