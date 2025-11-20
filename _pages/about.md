@@ -55,7 +55,7 @@ Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/TACO.png' alt="sym" width="80%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/TACO.png' alt="sym" width="100%" height="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TACO: Enhancing Multimodal In-context Learning via Task Mapping-Guided Sequence Configuration](https://arxiv.org/abs/2505.17098)
@@ -66,7 +66,7 @@ This work improves the robustness and adaptability of multimodal in-context lear
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="80%" height="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/MIV.png' alt="sym" width="100%" height="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2505.17098)
@@ -74,6 +74,17 @@ This work improves the robustness and adaptability of multimodal in-context lear
 **Yanshu Li**, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
 - We propose M²IV, a representation-engineering framework that replaces token-level demonstrations with learnable in-context vectors that can be directly injected into the layers of LVLMs for fine-grained and efficient multimodal in-context learning.
 This work improves scalability, reduces token overhead, and strengthens task adaptation in multimodal ICL. It also provides a promising way of customizing LVLMs.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Findings</div><img src='images/reloop.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ReLoop: "Seeing Twice and Thinking Backwards" via Closed-loop Training to Mitigate Hallucinations in Multimodal understanding](https://arxiv.org/abs/2507.04943)
+
+Jianjiang Yang, **Yanshu Li**, Ziyan Huang
+- We propose ReLoop, a closed-loop training framework that reduces hallucinations by enforcing multimodal consistency through semantic reconstruction, visual description, and attention alignment.
+This work strengthens the faithfulness and stability of multimodal understanding by enabling models to better verify and correct their own predictions.
 </div>
 </div>
 
