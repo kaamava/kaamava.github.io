@@ -88,6 +88,26 @@ This work strengthens the faithfulness and stability of multimodal understanding
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/ICR.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Generalizable Implicit In-Context Learning with Attention Routing](https://arxiv.org/abs/2509.22854)
+
+Jiaqian Li, **Yanshu Li**, Ligong Han, Ruixiang Tang, Wenya Wang
+- We propose Attention Routing, a mechanism within implicit in-context learning that dynamically routes attention paths to simulate few-shot behavior without relying on explicit demonstration vectors.
+This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
+</div>
+</div>
+
+
+``NeruIPS 2025``[TRiCo: Triadic Game-Theoretic Co-Training for Robust Semi-Supervised Learning](https://arxiv.org/abs/2509.21526) Hongyang He, Xinyuan Song, Yangfan He, Zeyu Zhang, **Yanshu Li**, Haochen You, Lifan Sun, Wenqiao Zhang
+
+``Survey``[Thinking with Images for Multimodal Reasoning:
+Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) Zhaochen Su, Peng Xia, Hangyu Guo, Zhenhua Liu, Yan Ma, Xiaoye Qu, Jiaqi Liu, **Yanshu Li**, Kaide Zeng, Zhengyuan Yang, Linjie Li, Yu Cheng, Heng Ji, Junxian He, Yi R. Fung
+
+``ACM MM 2025``[Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](https://dl.acm.org/doi/abs/10.1145/3746027.3755731)
+Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
+
 # 📖 Educations
 - *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
