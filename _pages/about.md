@@ -94,7 +94,7 @@ This work strengthens the faithfulness and stability of multimodal understanding
 [Towards Generalizable Implicit In-Context Learning with Attention Routing](https://arxiv.org/abs/2509.22854)
 
 Jiaqian Li, **Yanshu Li**, Ligong Han, Ruixiang Tang, Wenya Wang
-- We propose Attention Routing, a mechanism within implicit in-context learning that dynamically routes attention paths to simulate few-shot behavior without relying on explicit demonstration vectors.
+- We propose In-context Routing (ICR), a mechanism within implicit in-context learning that dynamically routes attention paths in the logits space to simulate few-shot behavior without relying on explicit demonstrations or steering vectors added on activations.
 This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
 </div>
 </div>
