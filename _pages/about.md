@@ -31,6 +31,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations🏅! See you in Singapore!
 - *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
+  
 # 📝 Publications 
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%" height="70%"></div></div>
@@ -121,3 +122,5 @@ Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 - *Volunteer*: COLM 2024, COLM 2025, ICLR 2025, EMNLP 2025
 - *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
 
+# 🪄 Misc
+I’m an ACGN (Anime, Comic, Game, Novel) fan and a cosplayer. If you share similar interests, feel free to reach out for 扩列/友達募集!
