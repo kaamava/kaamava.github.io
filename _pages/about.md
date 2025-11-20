@@ -32,7 +32,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
 - *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
-For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en).
+**For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
