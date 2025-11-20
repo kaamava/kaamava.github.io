@@ -33,7 +33,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
 # 📝 Publications 
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%" height="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CAMA: Enhancing Multimodal In-Context Learning with Context-Aware
@@ -41,11 +41,10 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 
 **Yanshu Li**, Jianjiang Yang, Ziteng Yang, Bozheng Li, Hongyang He, Zhengtao Yao, Ligong Han, Yingjie Victor Chen, Songlin Fei, Dongfang Liu, Ruixiang Tang
 - We propose Context-Aware Modulated Attention (CAMA), a training-free method that dynamically adjusts attention logits to fix attention deficits in LVLMs' multimodal in-context learning. This work improves model stability, reduces erroneous attention patterns, and enhances the consistency of multimodal reasoning.
-
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%" height="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced
