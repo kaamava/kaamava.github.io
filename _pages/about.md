@@ -48,8 +48,8 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 💻 Industrial Internships
-- *2024.04-2024.06*, Foundation Model Engineer, Baidu, Shanghai, China
-- *2023.10-2024.02*, Foundation Model Engineer, iFlytek, Suzhou, China
+- *2024.04-2024.06*, Foundation Model Engineer, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
+- *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
 
 # 📖 Educations
 - *2024.9 - 2026.5(Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
