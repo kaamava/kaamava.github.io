@@ -34,7 +34,7 @@ I am a second-year Computer Science student at Brown University <img src='./imag
   
 # 📝 Publications 
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%" height="70%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CAMA: Enhancing Multimodal In-Context Learning with Context-Aware
@@ -45,7 +45,7 @@ Modulated Attention](https://arxiv.org/abs/2505.17097)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%" height="70%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/CATP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced
@@ -113,7 +113,7 @@ Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
 - *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
-# 💻 Industrial Internships
+# 💻 Internships
 - *2024.04-2024.06*, Foundation Model Engineer, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
 - *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
 
