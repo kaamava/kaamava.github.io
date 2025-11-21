@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Welcome to my homepage!
-I am a second-year Computer Science student at Brown University<img src='./images/brown.jpeg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs).
+I am a second-year Computer Science student at Brown University<img src='./images/brown.jpeg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs). My graduate research focuses on enhancing LVLM performance in complex multimodal scenarios and in-domain applications, as well as building trustworthy and robust multimodal systems powered by these models. I’m fortunate to be advised by Prof. [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/) from Brown University, Prof. [Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers University, and Dr. [Ligong Han](https://phymhan.github.io/) from the MIT–IBM Watson AI Lab. I received my Bachelor’s degree in Artificial Intelligence from Soochow University, where my research explored retrieval-augmented generation (RAG) for LLMs and LLM evaluation, advised by Prof. [Juntao Li](https://lijuntaopku.github.io/).
 
 <br>
 <div style="text-align: center; margin: 15px 0;">
@@ -71,6 +71,12 @@ Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 
 **Yanshu Li**, Jianjiang Yang, Zhennan Shen, Ligong Han, Haoyan Xu, Ruixiang Tang
 - We propose Contextually Adaptive Token Pruning (CATP), a training-free image token pruning method that adapts to complex image-text interactions and significantly reduces redundant image tokens in LVLMs. This research pushes forward the efficiency and practical applicability of multimodal in-context learning.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Modern large vision-language models (LVLMs) convert each input image into a large set of tokens that far outnumber the text tokens. Although this improves visual perception, it also introduces severe image token redundancy. Because image tokens contain sparse information, many contribute little to reasoning but greatly increase inference cost. Recent image token pruning methods address this issue by identifying important tokens and removing the rest. These methods improve efficiency with only small performance drops. However, most of them focus on single-image tasks and overlook multimodal in-context learning (ICL), where redundancy is higher and efficiency is more important. Redundant tokens weaken the advantage of multimodal ICL for rapid domain adaptation and lead to unstable performance. When existing pruning methods are applied in this setting, they cause large accuracy drops, which exposes a clear gap and the need for new approaches. To address this, we propose Contextually Adaptive Token Pruning (CATP), a training-free pruning method designed for multimodal ICL. CATP uses two stages of progressive pruning that fully reflect the complex cross-modal interactions in the input sequence. After removing 77.8\% of the image tokens, CATP achieves an average performance gain of 0.6\% over the vanilla model on four LVLMs and eight benchmarks, clearly outperforming all baselines. At the same time, it improves efficiency by reducing inference latency by an average of 10.78\%. CATP strengthens the practical value of multimodal ICL and lays the foundation for future progress in interleaved image-text settings.
+</details>
+</div>
 </div>
 </div>
 
@@ -82,6 +88,12 @@ Multimodal In-Context Learning](https://arxiv.org/abs/2508.07871)
 **Yanshu Li**, Jianjiang Yang, Tian Yun, Pinyuan Feng, Jinfa Huang, Ruixiang Tang
 - We propose an interpretable framework that analyzes how multimodal in-context learning behaves under different inputs, and we further introduce TACO, a lightweight transformer-based model that uses this framework to configure in-context prompts for LVLMs.
 This work improves the robustness and adaptability of multimodal in-context learning pipelines by making prompt configuration more informed and controllable.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Multimodal in-context learning (ICL) has emerged as a key mechanism for harnessing the capabilities of large vision–language models (LVLMs). However, its effectiveness remains highly sensitive to the quality of input ICL sequences, particularly for tasks involving complex reasoning or open-ended generation. A major limitation is our limited understanding of how LVLMs actually exploit these sequences during inference. To bridge this gap, we systematically interpret multimodal ICL through the lens of task mapping, which reveals how local and global relationships within and among demonstrations guide model reasoning. Building on this insight, we present TACO, a lightweight transformer-based model equipped with task-aware attention that dynamically configures ICL sequences. By injecting task-mapping signals into the autoregressive decoding process, TACO creates a bidirectional synergy between sequence construction and task reasoning. Experiments on five LVLMs and nine datasets demonstrate that TACO consistently surpasses baselines across diverse ICL tasks. These results position task mapping as a novel and valuable perspective for interpreting and improving multimodal ICL.
+</details>
+</div>
 </div>
 </div>
 
@@ -93,6 +105,12 @@ This work improves the robustness and adaptability of multimodal in-context lear
 **Yanshu Li**, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
 - We propose M²IV, a representation-engineering framework that replaces token-level demonstrations with learnable in-context vectors that can be directly injected into the layers of LVLMs for fine-grained and efficient multimodal in-context learning.
 This work improves scalability, reduces token overhead, and strengthens task adaptation in multimodal ICL. It also provides a promising way of customizing LVLMs.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Multimodal in-context learning (ICL) equips Large Vision-language Models (LVLMs) with the ability to adapt to new tasks via multiple user-provided demonstrations, without requiring any model parameter updates. However, its effectiveness is constrained by the token-intensive nature of multimodal inputs and the complexity of cross-modal few-shot reasoning, which together hinder LVLMs from extracting useful patterns from demonstrations. To address these challenges, we propose \textbf{M²IV}, a novel representation engineering approach that replaces explicit token-level demonstrations with a set of learnable Multimodal In-context Vectors directly injected into the residual streams of LVLMs. By analyzing the distinct roles of multi-head attention (MHA) and multi-layer perceptrons (MLP) in the ICL process, we design a training strategy that enables M²IV to perform fine-grained semantic distillation and robust cross-modal representation learning. M²IV not only improves performance across diverse tasks and LVLMs but also significantly reduces token overhead, enabling graceful scaling to many-shot scenarios. To further enhance usability, we introduce \textbf{VLibrary}, a repository that stores trained M²IVs for flexible retrieval and injection. With VLibrary, users can steer pre-trained LVLMs in a customized manner that meets diverse requirements. Extensive experiments demonstrate that M²IV consistently outperforms vanilla ICL and prior representation engineering baselines, achieving an average accuracy gain of 3.74\% with substantial improvements in overall efficiency.
+</details>
+</div>
 </div>
 </div>
 
@@ -104,6 +122,12 @@ This work improves scalability, reduces token overhead, and strengthens task ada
 Jianjiang Yang, **Yanshu Li**, Ziyan Huang
 - We propose ReLoop, a closed-loop training framework that reduces hallucinations by enforcing multimodal consistency through semantic reconstruction, visual description, and attention alignment.
 This work strengthens the faithfulness and stability of multimodal understanding by enabling models to better verify and correct their own predictions.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+While Multimodal Large Language Models (MLLMs) have achieved remarkable progress in open-ended visual question answering, they remain vulnerable to hallucinations. These are outputs that contradict or misrepresent input semantics, posing a critical challenge to the reliability and factual consistency. Existing methods often rely on external verification or posthoc correction, lacking an internal mechanism to validate outputs directly during training. To bridge this gap, we propose ReLoop, a unified closed-loop training framework that encourages multimodal consistency for cross-modal understanding in MLLMs. ReLoop adopts a ring-shaped structure that integrates three complementary consistency feedback mechanisms, obliging MLLMs to" seeing twice and thinking backwards". Specifically, ReLoop employs the frozen Consistency Feedback Plugin (CFP), comprising semantic reconstruction and visual description modules, along with an attention supervision module for attention alignment. These components collectively enforce semantic reversibility, visual consistency, and interpretable attention, enabling the model to correct its outputs during training. Extensive evaluations and analyses demonstrate the effectiveness of ReLoop in reducing hallucination rates across multiple benchmarks, establishing a robust method for hallucination mitigation in MLLMs. The code is available at: https://github. com/ZiyanHuang11/Reloophallucinations.
+</details>
+</div>
 </div>
 </div>
 
@@ -115,6 +139,12 @@ This work strengthens the faithfulness and stability of multimodal understanding
 Jiaqian Li, **Yanshu Li**, Ligong Han, Ruixiang Tang, Wenya Wang
 - We propose In-context Routing (ICR), a mechanism within implicit in-context learning that dynamically routes attention paths in the logits space to simulate few-shot behavior without relying on explicit demonstrations or steering vectors added on activations.
 This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Implicit in-context learning (ICL) has newly emerged as a promising paradigm that simulates ICL behaviors in the representation space of Large Language Models (LLMs), aiming to attain few-shot performance at zero-shot cost. However, existing approaches largely rely on injecting shift vectors into residual flows, which are typically constructed from labeled demonstrations or task-specific alignment. Such designs fall short of utilizing the structural mechanisms underlying ICL and suffer from limited generalizability. To address this, we propose In-Context Routing (ICR), a novel implicit ICL method that internalizes generalizable ICL patterns at the attention logits level. It extracts reusable structural directions that emerge during ICL and employs a learnable input-conditioned router to modulate attention logits accordingly, enabling a train-once-and-reuse framework. We evaluate ICR on 12 real-world datasets spanning diverse domains and multiple LLMs. The results show that ICR consistently outperforms prior implicit ICL methods that require task-specific retrieval or training, while demonstrating robust generalization to out-of-domain tasks where existing methods struggle. These findings position ICR to push the boundary of ICL's practical value.
+</details>
+</div>
 </div>
 </div>
 
@@ -127,7 +157,7 @@ Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) Zh
 Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 
 # 📖 Educations
-- *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/).
+- *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/).
 - *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
 - *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
