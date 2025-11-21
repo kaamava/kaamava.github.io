@@ -213,6 +213,13 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
+      {% if author.xiaohongshu %}
+    <li>
+    <a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}">
+      <i class="fab fa-fw fa-book" aria-hidden="true"></i> 小红书
+    </a>
+  </li>
+{% endif %}
     </div>
   </div>
 </div>
