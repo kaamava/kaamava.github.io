@@ -22,11 +22,11 @@ I am a second-year Computer Science student at Brown University<img src='./image
 
 <br>
 <div style="text-align: center; margin: 15px 0;">
-    <img src="images/llava.png" alt="Your image description" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src="images/llava.png" alt="Your image description" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
 </div>
 
 <p style="text-align: center; font-style: italic; color: #777; font-size: 0.95em;">
-   The Vision encoder–Projector–LLM decoder pipeline, epitomized by LLaVA. Simple yet powerful. Foundational for LVLMs. And one of my all-time favorite papers.
+   The Vision encoder–Projector–LLM decoder architecture, epitomized by LLaVA. Simple yet powerful. Foundational for LVLMs. And one of my all-time favorite papers.
 </p>
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026 and both are selected as Oral presentations🏅! See you in Singapore!
