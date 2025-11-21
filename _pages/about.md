@@ -18,8 +18,24 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Welcome to my homepage!
-I am a second-year Computer Science student at Brown University<img src='./images/brown.jpeg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs). My graduate research focuses on enhancing LVLM performance in complex multimodal scenarios and in-domain applications, as well as building trustworthy and robust multimodal systems powered by these models. I’m fortunate to be advised by Prof. [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/) from Brown University, Prof. [Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers University, and Dr. [Ligong Han](https://phymhan.github.io/) from the MIT–IBM Watson AI Lab. I received my Bachelor’s degree in Artificial Intelligence from Soochow University, where my research explored retrieval-augmented generation (RAG) for LLMs and LLM evaluation, advised by Prof. [Juntao Li](https://lijuntaopku.github.io/).
 
+I am a second-year Computer Science Master’s student at Brown University<img src='./images/brown.jpeg' style="width: 1.35em;">, working on multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs). My graduate research focuses on enhancing LVLM performance in complex multimodal scenarios and in-domain applications, as well as building trustworthy and robust multimodal systems powered by these models. I’m fortunate to be advised by Prof. [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/) from Brown University, Prof. [Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers University, and Dr. [Ligong Han](https://phymhan.github.io/) from the MIT–IBM Watson AI Lab. I received my Bachelor’s degree in Artificial Intelligence from Soochow University, where my research explored retrieval-augmented generation (RAG) for LLMs and LLM evaluation, advised by Prof. [Juntao Li](https://lijuntaopku.github.io/).
+
+My current and near-term multimodal research centers on the LLaVA-style “Vision encoder-Projector-LLM decoder” LVLM architecture. This framework effectively leverages the strong reasoning capabilities of LLMs while seamlessly integrating visual information into existing language-centric pipelines. Giving AI “eyes” is a key step toward AGI. However, relying heavily on LLMs also introduces several limitations—most notably modality bias from LLM pre-training and significant reasoning inefficiency caused by image-to-token conversion. My research directions include:
+
+(1) **Multimodal reasoning enhancement in pre-trained LVLMs**. I aim to improve cross-modal alignment, reduce language priors, enhance visual perception, mitigate hallucinations, and strengthen the model’s ability to understand and utilize complex multimodal information. Thus, we can get smarter and more reliable LVLMs.
+My work investigates:
+* Training-free methods such as prompt engineering, attention steering, contrastive decoding, and self-reflection, etc.
+* Lightweight training techniques such as prompt tuning and prefix tuning.
+
+(2) **Efficient multimodal learning**. In current LVLMs, each image is converted into far more tokens than text, and the resulting visual tokens are proven to be highly sparse. Meanwhile, downstream tasks often require different image resolutions. This makes adaptive and efficient inference strategies essential.
+My work investigates:
+* Image-side methods: token pruning, resolution routing, and other adaptive image-to-token conversion techniques;
+* Attention-side methods: sparse attention mechanisms tailored for visual inputs.
+
+They can further benefit LVLM training efficiency.
+
+(3) **Data-centric multimodal foundation models**. For both the pre-training and post-training stages, I study optimal training data recipes (a largely underexplored area in multimodality) as well as effective training strategies. Compared to architectural tweaks, data-centric design is at the core of LVLM advancement, as exemplified by the InternVL and QwenVL families.
 <br>
 <div style="text-align: center; margin: 15px 0;">
     <img src="images/llava.png" alt="Your image description" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
@@ -28,6 +44,23 @@ I am a second-year Computer Science student at Brown University<img src='./image
 <p style="text-align: center; font-style: italic; color: #777; font-size: 0.95em;">
    The Vision encoder–Projector–LLM decoder architecture, epitomized by LLaVA. Simple yet powerful. Foundational for LVLMs. And one of my all-time favorite papers.
 </p>
+
+It is worth noting that during my Master’s research, my research mostly focused on a single topic: multimodal in-context learning (ICL). I chose this topic because it naturally involves complex multimodal scenarios, including multi-image reasoning and interleaved image–text understanding. However, most existing works study only single-image tasks. While these studies provide useful insights, they remain fundamentally different from multimodal ICL (which can be reflected in the revolution from LLaVA to LLaVA-next-interleaved). Moreover, multimodal ICL will not lose its value as commercial LVLMs rapidly improve. It enhances any model and consistently brings complementary benefits. More importantly, ICL is crucial for everyday LLM usage for ordinary users.
+I hope to build a comprehensive, personally distinctive, and impactful research framework around this topic. Related works that I have published can be found in the Publications section below.
+
+<br>
+<div style="text-align: center; margin: 15px 0;">
+    <img src="images/research.png" alt="Your image description" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
+</div>
+
+<p style="text-align: center; font-style: italic; color: #777; font-size: 0.95em;">
+   My research blueprint for advancing multimodal in-context learning.
+</p>
+
+For my long-term goals, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded on such models. 5. Designing a vision-centric LVLM architecture. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
+
+<span style="color: red;">**[Note] I am actively applying for Fall 2026 CS Ph.D. programs！**</span>
+
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026 and both are selected as Oral presentations🏅! See you in Singapore!
 - *2025.11*: &nbsp;🎉🎉 Three papers are accepted at WACV 2026!
