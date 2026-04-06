@@ -71,7 +71,6 @@ For my **long-term goals**, I plan to explore several directions: 1. Multi-agent
 - *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! One of them is selected as an Oral presentation🏅! See you in Suzhou!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
-- *2025.05*: &nbsp;🎉🎉 One paper is accepted at ICML 2025!
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations🏅! See you in Singapore!
 - *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
