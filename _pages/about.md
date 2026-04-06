@@ -62,6 +62,8 @@ For my **long-term goals**, I plan to explore several directions: 1. Multi-agent
 <span style="color: red;">**[Note] I am actively applying for Fall 2026 CS Ph.D. programs！**</span>
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!
+- *2026.02*: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!
 - *2026.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2026! See you in Rio de Janeiro!
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026, and both are selected as Oral presentations🏅! See you in Singapore!
 - *2025.11*: &nbsp;🎉🎉 Two papers are accepted at WACV 2026!
