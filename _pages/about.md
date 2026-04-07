@@ -137,7 +137,7 @@ Multimodal in-context learning (ICL) has emerged as a key mechanism for harnessi
 
 [M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering](https://arxiv.org/abs/2504.04633)
 
-**Yanshu Li**, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
+**Yanshu Li**†, Yi Cao†, Hongyang He, Qisen Cheng, Xiang Fu, Xi Xiao, Tianyang Wang, Ruixiang Tang
 - We propose M²IV, a representation-engineering framework that replaces token-level demonstrations with learnable in-context vectors that can be directly injected into the layers of LVLMs for fine-grained and efficient multimodal in-context learning.
 This work improves scalability, reduces token overhead, and strengthens task adaptation in multimodal ICL. It also provides a promising way of customizing LVLMs.
 <div style="width: 100%;">
@@ -190,7 +190,7 @@ While Multimodal Large Language Models (MLLMs) have achieved remarkable progress
 
 [Towards Generalizable Implicit In-Context Learning with Attention Routing](https://arxiv.org/abs/2509.22854)
 
-Jiaqian Li, **Yanshu Li**, Ligong Han, Ruixiang Tang, Wenya Wang
+Jiaqian Li†, **Yanshu Li**†, Ligong Han, Ruixiang Tang, Wenya Wang
 - We propose In-context Routing (ICR), a mechanism within implicit in-context learning that dynamically routes attention paths in the logits space to simulate few-shot behavior without relying on explicit demonstrations or steering vectors added on activations.
 This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
 <div style="width: 100%;">
