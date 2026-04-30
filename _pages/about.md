@@ -220,7 +220,7 @@ Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 
 # ⚙️ Services
 - *Volunteer*: COLM 2024, COLM 2025, ICLR 2025, EMNLP 2025
-- *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026
+- *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026, ARR Jan/Mar 2026, ICML 2026, COLM 2026, NeurIPS 2026
 
 # 🪄 Misc
 I’m an ACGN (Anime, Comic, Game, Novel) fan and a cosplayer. If you share similar interests, feel free to reach out for 扩列/友達募集!
