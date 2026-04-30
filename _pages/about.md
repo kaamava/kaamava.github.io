@@ -60,6 +60,7 @@ I hope to build a comprehensive, personally distinctive, and impactful research 
 For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded on such models. 5. Designing a vision-centric LVLM architecture. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ICML 2026! See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!
 - *2026.02*: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!
 - *2026.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2026! See you in Rio de Janeiro!
@@ -147,6 +148,23 @@ Multimodal in-context learning (ICL) equips Large Vision-language Models (LVLMs)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICR.png' alt="sym" width="100%" height="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Generalizable Implicit In-Context Learning with Attention Routing](https://arxiv.org/abs/2509.22854)
+
+Jiaqian Li†, **Yanshu Li**†, Ligong Han, Ruixiang Tang, Wenya Wang
+- We propose In-context Routing (ICR), a mechanism within implicit in-context learning that dynamically routes attention paths in the logits space to simulate few-shot behavior without relying on explicit demonstrations or steering vectors added on activations.
+This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Implicit in-context learning (ICL) has newly emerged as a promising paradigm that simulates ICL behaviors in the representation space of Large Language Models (LLMs), aiming to attain few-shot performance at zero-shot cost. However, existing approaches largely rely on injecting shift vectors into residual flows, which are typically constructed from labeled demonstrations or task-specific alignment. Such designs fall short of utilizing the structural mechanisms underlying ICL and suffer from limited generalizability. To address this, we propose In-Context Routing (ICR), a novel implicit ICL method that internalizes generalizable ICL patterns at the attention logits level. It extracts reusable structural directions that emerge during ICL and employs a learnable input-conditioned router to modulate attention logits accordingly, enabling a train-once-and-reuse framework. We evaluate ICR on 12 real-world datasets spanning diverse domains and multiple LLMs. The results show that ICR consistently outperforms prior implicit ICL methods that require task-specific retrieval or training, while demonstrating robust generalization to out-of-domain tasks where existing methods struggle. These findings position ICR to push the boundary of ICL's practical value.
+</details>
+</div>
+</div>
+</div>
+
 <div class='paper-box'>
 <div class='paper-box-image'>
     <div><div class="badge">ICLR 2026</div><img src='images/DECO.png' alt="sym" width="100%"></div>
@@ -171,30 +189,13 @@ Open-vocabulary Object Detection (OVOD) enables models to recognize objects beyo
 
 [ReLoop: "Seeing Twice and Thinking Backwards" via Closed-loop Training to Mitigate Hallucinations in Multimodal understanding](https://arxiv.org/abs/2507.04943)
 
-Jianjiang Yang†, **Yanshu Li**†, Ziyan Huang
+Jianjiang Yang†, **Yanshu Li**†, Ziyan Huang†
 - We propose ReLoop, a closed-loop training framework that reduces hallucinations by enforcing multimodal consistency through semantic reconstruction, visual description, and attention alignment.
 This work strengthens the faithfulness and stability of multimodal understanding by enabling models to better verify and correct their own predictions.
 <div style="width: 100%;">
 <details>
 <summary>📑 Click to see abstract</summary>
 While Multimodal Large Language Models (MLLMs) have achieved remarkable progress in open-ended visual question answering, they remain vulnerable to hallucinations. These are outputs that contradict or misrepresent input semantics, posing a critical challenge to the reliability and factual consistency. Existing methods often rely on external verification or posthoc correction, lacking an internal mechanism to validate outputs directly during training. To bridge this gap, we propose ReLoop, a unified closed-loop training framework that encourages multimodal consistency for cross-modal understanding in MLLMs. ReLoop adopts a ring-shaped structure that integrates three complementary consistency feedback mechanisms, obliging MLLMs to" seeing twice and thinking backwards". Specifically, ReLoop employs the frozen Consistency Feedback Plugin (CFP), comprising semantic reconstruction and visual description modules, along with an attention supervision module for attention alignment. These components collectively enforce semantic reversibility, visual consistency, and interpretable attention, enabling the model to correct its outputs during training. Extensive evaluations and analyses demonstrate the effectiveness of ReLoop in reducing hallucination rates across multiple benchmarks, establishing a robust method for hallucination mitigation in MLLMs. The code is available at: https://github. com/ZiyanHuang11/Reloophallucinations.
-</details>
-</div>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/ICR.png' alt="sym" width="100%" height="80%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Towards Generalizable Implicit In-Context Learning with Attention Routing](https://arxiv.org/abs/2509.22854)
-
-Jiaqian Li†, **Yanshu Li**†, Ligong Han, Ruixiang Tang, Wenya Wang
-- We propose In-context Routing (ICR), a mechanism within implicit in-context learning that dynamically routes attention paths in the logits space to simulate few-shot behavior without relying on explicit demonstrations or steering vectors added on activations.
-This work elevates the generalizability of implicit in-context learning, enabling models to adapt more flexibly across diverse tasks.
-<div style="width: 100%;">
-<details>
-<summary>📑 Click to see abstract</summary>
-Implicit in-context learning (ICL) has newly emerged as a promising paradigm that simulates ICL behaviors in the representation space of Large Language Models (LLMs), aiming to attain few-shot performance at zero-shot cost. However, existing approaches largely rely on injecting shift vectors into residual flows, which are typically constructed from labeled demonstrations or task-specific alignment. Such designs fall short of utilizing the structural mechanisms underlying ICL and suffer from limited generalizability. To address this, we propose In-Context Routing (ICR), a novel implicit ICL method that internalizes generalizable ICL patterns at the attention logits level. It extracts reusable structural directions that emerge during ICL and employs a learnable input-conditioned router to modulate attention logits accordingly, enabling a train-once-and-reuse framework. We evaluate ICR on 12 real-world datasets spanning diverse domains and multiple LLMs. The results show that ICR consistently outperforms prior implicit ICL methods that require task-specific retrieval or training, while demonstrating robust generalization to out-of-domain tasks where existing methods struggle. These findings position ICR to push the boundary of ICL's practical value.
 </details>
 </div>
 </div>
