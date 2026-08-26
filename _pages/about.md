@@ -48,8 +48,9 @@ They can further benefit LVLM training efficiency.
 For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded on such models. 5. Designing a vision-centric LVLM architecture. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
 
 # 🔥 News
-- *2026.07*: &nbsp;🎉🎉 One papers is accepted at TMLR!
-- *2026.06*: &nbsp;🎉🎉 One papers is accepted at ECCV 2026! See you in Malmo!
+- *2026.08*: &nbsp;🎉🎉 Two papers are accepted at EMNLP 2026 Main!
+- *2026.07*: &nbsp;🎉🎉 One paper is accepted at TMLR!
+- *2026.06*: &nbsp;🎉🎉 One paper is accepted at ECCV 2026! See you in Malmo!
 - *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ICML 2026! See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!
 - *2026.02*: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!
