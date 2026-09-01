@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yanshu Li"
   avatar           : "images/avatar.png"
-  bio              : "Brown University"
-  location         : "Providence, USA"
+  bio              : "University of Texas at Austin"
+  location         : "Austin, TX, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en"
-  email            : "yanshu_li1@brown.edu"
+  email            : "yanshu_li@utexas.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              : 
   bitbucket        :
