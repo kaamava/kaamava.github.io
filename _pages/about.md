@@ -48,23 +48,27 @@ They can further benefit LVLM training efficiency.
 For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded in such models. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
 
 # 🔥 News
-- *2026.08*: &nbsp;🔝🔝 I join University of Texas at Austin as a PhD student in Computer Science!
-- *2026.08*: &nbsp;🎉🎉 Two papers are accepted at EMNLP 2026 Main!
-- *2026.07*: &nbsp;🎉🎉 One paper is accepted at TMLR!
-- *2026.06*: &nbsp;🎉🎉 One paper is accepted at ECCV 2026! See you in Malmo!
-- *2026.05*: &nbsp;🔝🔝 I obtain my Master's degree in Computer Science from Brown University!
-- *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ICML 2026! See you in Seoul!
-- *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!
-- *2026.02*: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!
-- *2026.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2026! See you in Rio de Janeiro!
-- *2025.11*: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026, and both are selected as Oral presentations🏅! See you in Singapore!
-- *2025.11*: &nbsp;🎉🎉 Two papers are accepted at WACV 2026!
-- *2025.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2025!
-- *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! One of them is selected as an Oral presentation🏅! See you in Suzhou!
-- *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!
-- *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
-- *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
-- *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
+<div style="max-height: 15rem; overflow-y: auto; padding-right: 12px;">
+  <ul style="margin: 0; padding-left: 1.5rem;">
+    <li><em>2026.08</em>: &nbsp;🔝🔝 I join University of Texas at Austin as a PhD student in Computer Science!</li>
+    <li><em>2026.08</em>: &nbsp;🎉🎉 Two papers are accepted at EMNLP 2026 Main!</li>
+    <li><em>2026.07</em>: &nbsp;🎉🎉 One paper is accepted at TMLR!</li>
+    <li><em>2026.06</em>: &nbsp;🎉🎉 One paper is accepted at ECCV 2026! See you in Malmo!</li>
+    <li><em>2026.05</em>: &nbsp;🔝🔝 I obtain my Master's degree in Computer Science from Brown University!</li>
+    <li><em>2026.04</em>: &nbsp;🎉🎉 Two papers are accepted at ICML 2026! See you in Seoul!</li>
+    <li><em>2026.04</em>: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!</li>
+    <li><em>2026.02</em>: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!</li>
+    <li><em>2026.01</em>: &nbsp;🎉🎉 Two papers are accepted at ICLR 2026! See you in Rio de Janeiro!</li>
+    <li><em>2025.11</em>: &nbsp;🎉🎉 Two papers are accepted at AAAI 2026, and both are selected as Oral presentations🏅! See you in Singapore!</li>
+    <li><em>2025.11</em>: &nbsp;🎉🎉 Two papers are accepted at WACV 2026!</li>
+    <li><em>2025.09</em>: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2025!</li>
+    <li><em>2025.08</em>: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! One of them is selected as an Oral presentation🏅! See you in Suzhou!</li>
+    <li><em>2025.07</em>: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!</li>
+    <li><em>2025.07</em>: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!</li>
+    <li><em>2024.09</em>: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!</li>
+    <li><em>2024.09</em>: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!</li>
+  </ul>
+</div>
   
 # 📝 Publications († Equal Contributions)
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
