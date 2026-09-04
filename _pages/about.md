@@ -48,9 +48,11 @@ They can further benefit LVLM training efficiency.
 For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded in such models. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
 
 # 🔥 News
+- *2026.08*: &nbsp;🔝🔝 I join University of Texas at Austin as a PhD student in Computer Science!
 - *2026.08*: &nbsp;🎉🎉 Two papers are accepted at EMNLP 2026 Main!
 - *2026.07*: &nbsp;🎉🎉 One paper is accepted at TMLR!
 - *2026.06*: &nbsp;🎉🎉 One paper is accepted at ECCV 2026! See you in Malmo!
+- *2026.05*: &nbsp;🔝🔝 I obtain my Master's degree in Computer Science from Brown University!
 - *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ICML 2026! See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 Two papers are accepted at ACL 2026 Main!
 - *2026.02*: &nbsp;🎉🎉 One paper is accepted at CVPR 2026!
@@ -61,7 +63,6 @@ For my **long-term goals**, I plan to explore several directions: 1. Multi-agent
 - *2025.08*: &nbsp;🎉🎉 Three papers are accepted at EMNLP 2025 (two at the Main conference and one at Findings)! One of them is selected as an Oral presentation🏅! See you in Suzhou!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at COLM 2025! See you in Montreal!
 - *2025.07*: &nbsp;🎉🎉 One paper is accepted at ACM MM 2025!
-- *2025.01*: &nbsp;🎉🎉 Two papers are accepted at ICLR 2025 Workshop and both are selected as Oral presentations🏅! See you in Singapore!
 - *2024.09*: &nbsp;🔝🔝 I join Brown University as a Master’s student in Computer Science!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted at NeurIPS 2024!
   
@@ -206,13 +207,14 @@ This work strengthens the faithfulness and stability of multimodal understanding
 <div style="width: 100%;">
 <details>
 <summary>📑 Click to see abstract</summary>
-While Multimodal Large Language Models (MLLMs) have achieved remarkable progress in open-ended visual question answering, they remain vulnerable to hallucinations. These are outputs that contradict or misrepresent input semantics, posing a critical challenge to the reliability and factual consistency. Existing methods often rely on external verification or posthoc correction, lacking an internal mechanism to validate outputs directly during training. To bridge this gap, we propose ReLoop, a unified closed-loop training framework that encourages multimodal consistency for cross-modal understanding in MLLMs. ReLoop adopts a ring-shaped structure that integrates three complementary consistency feedback mechanisms, obliging MLLMs to" seeing twice and thinking backwards". Specifically, ReLoop employs the frozen Consistency Feedback Plugin (CFP), comprising semantic reconstruction and visual description modules, along with an attention supervision module for attention alignment. These components collectively enforce semantic reversibility, visual consistency, and interpretable attention, enabling the model to correct its outputs during training. Extensive evaluations and analyses demonstrate the effectiveness of ReLoop in reducing hallucination rates across multiple benchmarks, establishing a robust method for hallucination mitigation in MLLMs. The code is available at: https://github. com/ZiyanHuang11/Reloophallucinations.
+While Multimodal Large Language Models (MLLMs) have achieved remarkable progress in open-ended visual question answering, they remain vulnerable to hallucinations. These are outputs that contradict or misrepresent input semantics, posing a critical challenge to the reliability and factual consistency. Existing methods often rely on external verification or post hoc correction, lacking an internal mechanism to validate outputs directly during training. To bridge this gap, we propose ReLoop, a unified closed-loop training framework that encourages multimodal consistency for cross-modal understanding in MLLMs. ReLoop adopts a ring-shaped structure that integrates three complementary consistency feedback mechanisms, obliging MLLMs to" seeing twice and thinking backwards". Specifically, ReLoop employs the frozen Consistency Feedback Plugin (CFP), comprising semantic reconstruction and visual description modules, along with an attention supervision module for attention alignment. These components collectively enforce semantic reversibility, visual consistency, and interpretable attention, enabling the model to correct its outputs during training. Extensive evaluations and analyses demonstrate the effectiveness of ReLoop in reducing hallucination rates across multiple benchmarks, establishing a robust method for hallucination mitigation in MLLMs. The code is available at: https://github. com/ZiyanHuang11/Reloophallucinations.
 </details>
 </div>
 </div>
 </div>
+``EMNLP 2026``[TRACES: Proactive Safety Auditing for Multi-Turn LLM Agents via Trajectory-State Modeling](https://arxiv.org/abs/2605.27690) Jiaqian Li, Yanshu Li, Boxuan Zhang, Ruixiang Tang, Kuan-Hao Huang
 
-``NeruIPS 2025``[TRiCo: Triadic Game-Theoretic Co-Training for Robust Semi-Supervised Learning](https://arxiv.org/abs/2509.21526) Hongyang He, Xinyuan Song, Yangfan He, Zeyu Zhang, **Yanshu Li**, Haochen You, Lifan Sun, Wenqiao Zhang
+``ACL 2026``[Not all directions matter: Toward structured and task-aware low-rank adaptation](https://aclanthology.org/2026.acl-long.97/) Xi Xiao, Chenrui Ma, Yunbei Zhang, Chen Liu, Zhuxuanzi Wang, **Yanshu Li**, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu
 
 ``Survey``[Thinking with Images for Multimodal Reasoning:
 Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) Zhaochen Su, Peng Xia, Hangyu Guo, Zhenhua Liu, Yan Ma, Xiaoye Qu, Jiaqi Liu, **Yanshu Li**, Kaide Zeng, Zhengyuan Yang, Linjie Li, Yu Cheng, Heng Ji, Junxian He, Yi R. Fung
@@ -221,17 +223,19 @@ Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) Zh
 Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 
 # 📖 Educations
-- *2024.9 - 2026.5 (Expected)*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/).
-- *2025.1 - present*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
-- *2020.9 - 2024.6*, Bachelor in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
+- *2026.08 - *, PhD in Computer Science, University of Texas at Austin, Austin, Texas, USA. Advised by [Elias Stengel-Eskin](https://esteng.github.io/) and [Jessy Li](https://jessyli.com/).
+- *2024.09 - 2026.05*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/).
+- *2025.01 - 2026.05*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
+- *2020.09 - 2024.06*, Bachelor's in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
 
 # 💻 Internships
-- *2024.04-2024.06*, Foundation Model Engineer, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
-- *2023.10-2024.02*, Foundation Model Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
+- *2026.06-2026.08*, Multimodal Foundation Model Researcher, Youtu Lab, [Tencent](https://www.tencent.com/), Shanghai, China
+- *2024.04-2024.06*, NLP Researcher, [Baidu](https://en.wikipedia.org/wiki/Baidu), Shanghai, China
+- *2023.10-2024.02*, NLP Engineer, [iFlytek](https://www.iflytek.com/en/), Suzhou, China
 
 # ⚙️ Services
 - *Volunteer*: COLM 2024, COLM 2025, ICLR 2025, EMNLP 2025
-- *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026, ARR Jan/Mar 2026, ICML 2026, COLM 2026, NeurIPS 2026
+- *Reviewer*: ARR Feb/May/Jul/Oct 2025, COLM 2025, NeurIPS 2025, AAAI 2026, ICLR 2026, ARR Jan/Mar/May/Aug 2026, ICML 2026, COLM 2026, NeurIPS 2026, AAAI 2027, ICLR 2027
 
 # 🪄 Misc
 I’m an ACGN (Anime, Comic, Game, Novel) fan and a cosplayer. If you share similar interests, feel free to reach out for 扩列/友達募集!
