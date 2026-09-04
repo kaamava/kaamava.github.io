@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my homepage!
 
-I am a CS PhD student at University of Texas at Austin, advised by Prof. [Elias Stengel-Eskin](https://esteng.github.io/) and Prof. [Jessy Li](https://jessyli.com/). I obtained my master's degree in CS from Brown University.<img src='./images/brown.jpeg' style="width: 1.35em;">, working on **multimodal learning, Vision-Language Models (VLMs), and Large Vision-Language Models (LVLMs)**. My graduate research focuses on enhancing LVLM performance in complex multimodal scenarios and in-domain applications, as well as building trustworthy and robust multimodal systems powered by these models. I’m fortunate to be advised by Prof. [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/) from Brown University, Prof. [Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers University, and Dr. [Ligong Han](https://phymhan.github.io/) from MIT–IBM Watson AI Lab. I received my Bachelor’s degree in Artificial Intelligence from Soochow University, where my research explored retrieval-augmented generation (RAG) for LLMs and LLM evaluation, advised by Prof. [Juntao Li](https://lijuntaopku.github.io/).
+I am a first-year CS PhD student at the University of Texas at Austin<img src='./images/austin.png' style="width: 1.35em;">, advised by Prof. [Elias Stengel-Eskin](https://esteng.github.io/) and Prof. [Jessy Li](https://jessyli.com/). I obtained my master's degree in CS from Brown University<img src='./images/brown.jpeg' style="width: 1.35em;">. I’m fortunate to be advised by Prof. [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/) from Brown University, Prof. [Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers University, and Dr. [Ligong Han](https://phymhan.github.io/) from MIT–IBM Watson AI Lab. I received my Bachelor’s degree in Artificial Intelligence from Soochow University, where my research explored retrieval-augmented generation (RAG) for LLMs and LLM evaluation, advised by Prof. [Juntao Li](https://lijuntaopku.github.io/).
 
 My **current and near-term** research centers on LVLM architectures. Giving AI “eyes👀” is a key step toward AGI. However, relying heavily on LLMs also introduces several limitations—most notably modality bias from LLM pre-training and significant reasoning inefficiency caused by image-to-token conversion. My research directions include:
 
@@ -45,7 +45,7 @@ They can further benefit LVLM training efficiency.
    The Vision encoder–Projector–LLM decoder architecture, epitomized by LLaVA. Simple yet powerful. Foundational for LVLMs. And one of my all-time favorite papers.
 </p>
 
-For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded on such models. 5. Designing a vision-centric LVLM architecture. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
+For my **long-term goals**, I plan to explore several directions: 1. Multi-agent systems and agentic RL built on LVLMs. 2. Applying LVLMs to downstream domains such as healthcare, medical image analysis, and broader scientific discovery. 3. Developing vision–language alignment strategies that go beyond existing paradigms. 4. Building unified understanding–generation models that can produce both text and multimodal content, along with RL strategies grounded in such models. **Please feel free to reach out to me to share your thoughts or explore any form of collaboration!**
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 Two papers are accepted at EMNLP 2026 Main!
@@ -67,6 +67,26 @@ For my **long-term goals**, I plan to explore several directions: 1. Multi-agent
   
 # 📝 Publications († Equal Contributions)
 **For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=eTzFWiUAAAAJ&hl=en)**.
+<div class='paper-box'>
+<div class='paper-box-image'>
+    <div><div class="badge">ECCV 2026</div><img src='images/ICPT.png' alt="sym" width="100%"></div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+[Personalize Your Large Vision-language Models With In-context Prompt Tuning](https://arxiv.org/abs/2605.31513)
+
+**Yanshu Li**, Jiaqian Li, Kuai Yu, Xi Xiao, Dongfang Liu, Tianyang Wang, Ruixiang Tang
+- We propose In-context Prompt Tuning (ICPT), a method that transforms multimodal user-specific concepts into adaptive continuous prompts to personalize LVLMs without inference-time training. This work addresses the challenges of multi-image, multi-concept personalization in LVLMs and achieves state-of-the-art personalization accuracy across diverse tasks and LVLM backbones.
+<div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Large vision-language models (LVLMs) have demonstrated strong general multimodal capability and are increasingly deployed in downstream systems. This trend has driven growing interest in LVLM personalization, which aims to enable models to quickly and effectively learn out-of-distribution multimodal concepts to meet user-specific needs. However, many existing methods rely on inference-time training, which reduces efficiency. They also struggle to maintain accuracy in complex multi-image, multi-concept settings. These limitations restrict the broader deployment of LVLM-based systems. Therefore, this paper proposes in-context prompt tuning (ICPT). Specifically, ICPT employs a lightweight projection module capable of operating in complex scenarios to extract fine-grained visual semantics from multiple reference images, seamlessly transforming these features alongside identity-label mappings into continuous prompts. To maximize computational efficiency, this module adaptively determines the prompt length based on the intrinsic visual complexity of each concept. Crucially, to overcome the environmental biases and cross-concept interference prevalent in real-world applications, we introduce two novel geometric regularizations. These constraints refine prompt representations by decoupling key identities from transient environmental states and separating concepts to avoid semantic confusion. Extensive experiments show that ICPT achieves state-of-the-art personalization accuracy across diverse tasks and LVLM backbones.
+</details>
+</div>
+</div>
+</div>
+
+
 <div class='paper-box'>
 <div class='paper-box-image'>
     <div><div class="badge">AAAI 2026 Oral</div><img src='images/CAMA.png' alt="sym" width="100%"></div>
