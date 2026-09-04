@@ -227,7 +227,7 @@ Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) Zh
 Zhiqing Cui, Jiahao Yuan, Hanqing Wang, **Yanshu Li**, Chenxu Du, Zhenglong Ding
 
 # 📖 Educations
-- *2026.08 - *, PhD in Computer Science, University of Texas at Austin, Austin, Texas, USA. Advised by [Elias Stengel-Eskin](https://esteng.github.io/) and [Jessy Li](https://jessyli.com/).
+- *2026.08 - 203?.05*, PhD in Computer Science, University of Texas at Austin, Austin, Texas, USA. Advised by [Elias Stengel-Eskin](https://esteng.github.io/) and [Jessy Li](https://jessyli.com/).
 - *2024.09 - 2026.05*, Master's in Computer Science, Brown University, Providence, Rhode Island, USA. Advised by [Ellie Pavlick](https://cs.brown.edu/people/epavlick/) and [Stephen Bach](https://cs.brown.edu/people/sbach/).
 - *2025.01 - 2026.05*, Research Internship, Rutgers University, New Brunswick, New Jersey, USA. Advised by [Ruixiang Tang](https://www.ruixiangtang.net/).
 - *2020.09 - 2024.06*, Bachelor's in Artificial Intelligence, Soochow University, Suzhou, Jiangsu, China. Advised by [Juntao Li](https://lijuntaopku.github.io/).
